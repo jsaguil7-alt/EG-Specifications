@@ -1,0 +1,142 @@
+body{
+    background-color: #121212;
+    color: #808080;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.site-header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    border-bottom: 2px solid #808080;
+}
+.header-title{
+    text-align: center;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-logo{
+    text-align: left;
+}
+.header-logo img {
+    height: 120px; 
+    width: auto;
+    display: block;
+}
+.header-contact{
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-contact a{
+    font-size: xx-large;
+}
+nav{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #808080;
+    gap: 50px;
+}
+nav a{
+    font-size: xx-large;
+    display: flex;
+    text-decoration: none;
+    color: #121212;
+}
+#homehero{
+    height: 400px;
+    background-image: url(ROLLER.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #FFFFFF;
+}
+.WEBDES {
+    display: 1;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.photo-caro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0px 140px;
+   
+}
+.photo-caro img {
+    width: calc((100% - 30px) / 3);
+    object-fit: cover;
+    height: auto;
+    margin: 100px auto;
+
+}
+
+.HINFO{
+    display: flex;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.FText{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    flex: 0.5;
+    
+}
+.ColumnText{
+    flex-direction: column;
+    display: flex;
+    flex: 0.5;
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    
+}
+.SText {
+    height: 400px;
+}
+.TText {
+    box-sizing: border-box;
+    border: 1px solid #333333;
+}
+footer{
+    background-color: #333333;
+    border-top: 2px solid #808080;
+    display: flex;
+}
+.footer-logo img {
+    height: 120px; 
+    width: auto;
+    display: block;
+}
+.OFFSET{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-nav{
+    display: flex;
+    gap: 30px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color:#808080;
+    font-size: x-large;
+}
+.footer-copy{
+    font-size: small;
+}
+.SpacingRN{
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
