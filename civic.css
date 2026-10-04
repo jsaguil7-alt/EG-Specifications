@@ -37,13 +37,18 @@ nav{
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid #808080;
-    gap: 50px;
+    gap: 5px;
 }
 nav a{
     font-size: xx-large;
     display: flex;
     text-decoration: none;
     color: #121212;
+}
+nav a:not(:last-child)::after {
+    content: "|";
+    color: white;
+    margin: 0 30px;
 }
 #homehero{
     height: 400px;
@@ -109,7 +114,7 @@ nav a{
 }
 footer{
     background-color: #333333;
-    border-top: 2px solid #808080;
+    border-top: 2px solid #a10000;
     display: flex;
 }
 .footer-logo img {
@@ -139,4 +144,114 @@ footer{
 .SpacingRN{
     margin-top: 300px;
     margin-bottom: 300px;
+}
+.procedure {
+    font-size: 13px;
+    line-height: 1;
+}
+.ECUCODESPAGE{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+.ECUPINOUTA{
+    border: 1px solid #FFFFFF;
+    width: 50%;
+    
+}
+.ECUPINOUTA th{
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.ECUPINOUTA tr{
+    background-color: #808080;
+    color: #121212;
+    text-align: center;
+}
+.ECUPINOUTB{
+    border: 1px solid #FFFFFF;
+    width: 50%;
+    
+}
+.ECUPINOUTB th{
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.ECUPINOUTB tr{
+    background-color: #808080;
+    color: #121212;
+    text-align: center;
+}
+.ECUPINOUTD{
+    border: 1px solid #FFFFFF;
+    width: 50%;
+    
+}
+.ECUPINOUTD th{
+    background-color: #121212;
+    color: #FFFFFF;
+}
+.ECUPINOUTD tr{
+    background-color: #808080;
+    color: #121212;
+    text-align: center;
+}
+.ECUPINOUTINFO{
+    font-size: 13px;
+    line-height: 1;
+}
+.ADiagram{
+    border-collapse: collapse;
+    width: 25%;
+    color: #FFFFFF;
+}
+.ADiagram td {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+.BDiagram{
+    border-collapse: collapse;
+    width: 15%;
+    color: #FFFFFF;
+}
+.BDiagram td {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+.DDiagram{
+    border-collapse: collapse;
+    width: 20%;
+    color: #FFFFFF;
+}
+.DDiagram td {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+.FUSESPAGE{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+}
+.FUSESTABLE{
+    border-collapse: collapse;
+    width: 50%;
+    color: #FFFFFF;
+}
+.FUSESTABLE td{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 5px;
+}
+.FUSESTABLE th{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    background-color: #a10000;
 }

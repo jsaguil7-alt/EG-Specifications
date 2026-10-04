@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engine Codes</title>
+    <link rel = "stylesheet" href = "civic.css">
+    <link rel="icon" type="png" href="B18CVC blk.jpg">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>EG CIVIC SPECIFICATIONS</h1>
+    </header>
+
+    <nav>
+        
+        <a href="index.html">Home</a>
+        <a href="torque.html">Torque Specifications</a>
+        <a href="fuses.html">Fuses</a>
+        <a href="codes.html">ECU/Engine Codes</a>
+        <a href="learnparts.html">Learn Parts</a>
+        
+    </nav>
+
+    <main class="ECUCODESPAGE">
+<!--
+        *Change list color to white
+        *Make the webiste pop
+        *Maybe change all the text color to white, add red somewhere
+        *Add ECU Connector digrams
+-->
+        <h2>Check Engine Light Codes</h2>
+             <h3>Procedure:</h3>
+                <p class="procedure">
+                    Locate the 2-pin service check connector located near the passenger footwell, underneath the dash near the ECU.
+                    <br>Bridge the two pins using a jumper. You can use a piece of wire or for an easier application, use a paper clip. Make sure both sides of the pin connect to create a solid connection between them.
+                    <br>Now look at your gauge cluster and look for the flashing check engine light symbol.
+                    <br>Every long flash is an increment of 10, and every fast flash is an increment of 1.
+                    <br>Example: 2 long flashes followed by 2 quick flashes indicates code 22, which is VTEC oil pressure switch.
+                    <br>Codes are meant to get you in the right direction. It does not necessarily mean the sensor is bad, further diagnosis is needed.
+                </p>
+     
+        <ul>
+            <li>0 ECM - Electronic Control Module</li>
+            <li>1 O2A - Oxygen sensor #1</li>
+            <li>2 O2B - Oxygen sensor #2</li>
+            <li>3 MAP - Manifold absolute pressure sensor</li>
+            <li>4 CKP - Crank position sensor</li>
+            <li>5 MAP - Manifold absolute pressure sensor</li>
+            <li>6 ECT - Engine coolant temperature sensor</li>
+            <li>7 TPS - Throttle position sensor</li>
+            <li>8 TDC - Top dead center sensor</li>
+            <li>9 CYP - Cylinder sensor</li>
+            <li>10 IAT - Intake air temperature sensor</li>
+            <li>12 EGR - Exhaust gas recirculation lift sensor</li>
+            <li>13 BARO - Atmospheric pressure sensor</li>
+            <li>14 IAC (EACV) - Idle air control valve</li>
+            <li>15 Ignition output signal</li>
+            <li>16 Fuel injectors</li>
+            <li>17 VSS - Speed sensor</li>
+            <li>19 Automatic transmission lockup control solenoid valve</li>
+            <li>20 Electrical load detector</li>
+            <li>21 VTEC solenoid valve</li>
+            <li>22 VTEC oil pressure switch</li>
+            <li>23 Knock sensor</li>
+            <li>30 Automatic transmission A signal</li>
+            <li>31 Automatic transmission B signal</li>
+            <li>36 Traction control (JDM)</li>
+            <li>41 Primary oxygen sensor heater</li>
+            <li>43 Fuel supply system</li>
+            <li>45 Fuel system too rich or lean</li>
+            <li>48 LAF - Lean air fuel sensor</li>
+            <li>54 CKF - Crank fluctuation sensor</li>
+            <li>58 TDC sensor #2</li>
+            <li>61 Primary oxygen sensor</li>
+            <li>63 Secondary oxygen sensor</li>
+            <li>65 Secondary oxygen sensor heater</li>
+            <li>71 Misfire cylinder 1</li>
+            <li>72 Misfire cylinder 2</li>
+            <li>73 Misfire cylinder 3</li>
+            <li>74 Misfire cylinder 4</li>
+        </ul>
+
+        <h3>ECU Diagram:</h3>
+            <p class="ECUPINOUTINFO">*For wire color, the first color is the color of the wire and the second color is the stripe on the wire.
+                <br>Example: Green/White means green wire with white stripe
+                <br>* Rows with this symbol, - , mean that wire/pin is not used
+            </p>
+            <h4>Connector A</h4>
+                <table class="ADiagram">
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>11</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>17</td>
+                        <td>19</td>
+                        <td>21</td>
+                        <td>23</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>16</td>
+                        <td>18</td>
+                        <td>20</td>
+                        <td>22</td>
+                        <td>24</td>
+                        <td>26</td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="ECUPINOUTA">
+                    <tr>
+                        <th>Pin</th>
+                        <th>Terminal Name</th>
+                        <th>Description</th>
+                        <th>Wire Color</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>INJ1</td>
+                        <td>Injector 1</td>
+                        <td>Brown</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>INJ4</td>
+                        <td>Injector 4</td>
+                        <td>Yellow</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>INJ2</td>
+                        <td>Injector 2</td>
+                        <td>Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>VTS</td>
+                        <td>VTEC Solenoid Valve</td>
+                        <td>Orange/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>INJ3</td>
+                        <td>Injector 3</td>
+                        <td>Light Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>PO2SHTC</td>
+                        <td>Primary O2 Sensor Heater Control</td>
+                        <td>Orange/Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>FLR</td>
+                        <td>Fuel Pump Relay</td>
+                        <td>Green/Yellow</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>IACV</td>
+                        <td>Idle Air Control Valve</td>
+                        <td>Green/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td>EGR</td>
+                        <td>Exhaust Gas Recirculation Valve</td>
+                        <td>Orange/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>12</td>
+                        <td>FANC</td>
+                        <td>Radiator Fan Switch</td>
+                        <td>Yellow/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td>MIL</td>
+                        <td>Malfunction Indicator Light</td>
+                        <td>Green/Orange</td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td>ACC</td>
+                        <td>A/C Compressor Clutch</td>
+                        <td>Black/Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td>ALTC</td>
+                        <td>Alternator Control</td>
+                        <td>White/Yellow</td>
+                    </tr>
+
+                    <tr>
+                        <td>17</td>
+                        <td>IAB SOL</td>
+                        <td>Intake Air Bypass</td>
+                        <td>Pink/Blue(GSR P72)</td>
+                    </tr>
+
+                    <tr>
+                        <td>18</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>19</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>20</td>
+                        <td>PCS</td>
+                        <td>Purge Solenoid Valve</td>
+                        <td>Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>21</td>
+                        <td>ICM</td>
+                        <td>Ignition Control Valve</td>
+                        <td>Red/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>22</td>
+                        <td>ICM</td>
+                        <td>Ignition Control Valve</td>
+                        <td>Red/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>23</td>
+                        <td>PG1</td>
+                        <td>Power Ground 1</td>
+                        <td>Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>24</td>
+                        <td>PG2</td>
+                        <td>Power Ground 2</td>
+                        <td>Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>25</td>
+                        <td>IGP</td>
+                        <td>Power Source</td>
+                        <td>Yellow/Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>26</td>
+                        <td>LG1</td>
+                        <td>Logic Ground</td>
+                        <td>Black/Red</td>
+                    </tr>
+
+                </table>
+
+            <h4>Connector B</h4>
+                <table class="BDiagram">
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>11</td>
+                        <td>13</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>16</td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="ECUPINOUTB">
+                    <tr>
+                        <th>Pin</th>
+                        <th>Terminal Name</th>
+                        <th>Description</th>
+                        <th>Wire Color</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>IGP1</td>
+                        <td>Ignition Power 1</td>
+                        <td>Yellow/Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>LG2</td>
+                        <td>Logic Ground 2</td>
+                        <td>Brown/Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>ACS</td>
+                        <td>AC Switch</td>
+                        <td>Blue/Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>CLSW</td>
+                        <td>Clutch Switch(VX)</td>
+                        <td>Pink/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>PSP SW</td>
+                        <td>Power Sterring Preassure Switch</td>
+                        <td>Brown/Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>STS</td>
+                        <td>Starter Switch Signal</td>
+                        <td>Blue/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>VSS</td>
+                        <td>Vechile Speed Sensor</td>
+                        <td>Yellow/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td>CYP P</td>
+                        <td>Cylinder Position (+)</td>
+                        <td>Orange</td>
+                    </tr>
+
+                    <tr>
+                        <td>12</td>
+                        <td>CYP M</td>
+                        <td>Cylinder Position (-)</td>
+                        <td>White</td>
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td>TDC P</td>
+                        <td>Top Dead Center (+)</td>
+                        <td>Orange/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td>TDC P</td>
+                        <td>Top Dead Center (-)</td>
+                        <td>White/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td>CKP P</td>
+                        <td>Crank Position (+)</td>
+                        <td>Blue/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td>CKP M</td>
+                        <td>Crank Position (-)</td>
+                        <td>Blue/Yellow</td>
+                    </tr>
+                </table>
+
+            <h4>Connector D</h4>
+                <table class="DDiagram">
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>11</td>
+                        <td>13</td>
+                        <td>15</td>
+                        <td>17</td>
+                        <td>19</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>16</td>
+                        <td>18</td>
+                        <td>20</td>
+                        <td>22</td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <table class="ECUPINOUTD">
+                    <tr>
+                        <th>Pin</th>
+                        <th>Terminal Name</th>
+                        <th>Description</th>
+                        <th>Wire Color</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>VBU</td>
+                        <td>Voltage Backup</td>
+                        <td>White/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>BKSW</td>
+                        <td>Brake Switch Signal</td>
+                        <td>Green/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>KS<br> LAF</td>
+                        <td>Knock Sensor(GSR/Type R/Si Vtec DelSol)<br>5 Wire O2 Sensor (VX)</td>
+                        <td>Red/Blue<br>Blue/Yellow</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>SCS</td>
+                        <td>Service Check Signal</td>
+                        <td>Brown</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+
+                    <tr>
+                        <td>6</td>
+                        <td>VTP SW (USDM)</td>
+                        <td>VTEC Preassure Switch</td>
+                        <td>Orange/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>7</td>
+                        <td>DLC</td>
+                        <td>Data Link Connector</td>
+                        <td>Light Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>LAF VS+</td>
+                        <td>5 Wire O2 Sensor (VX)</td>
+                        <td>White/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>9</td>
+                        <td>ALT F</td>
+                        <td>Alternator FR Signal</td>
+                        <td>Pink/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>ELD</td>
+                        <td>Electric Load Detector</td>
+                        <td>Green/Red</td>
+                    </tr>
+
+                    <tr>
+                        <td>11</td>
+                        <td>TPS</td>
+                        <td>Throttle Position Sesnor</td>
+                        <td>Light Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>12</td>
+                        <td>EGRL(VX)</td>
+                        <td>Exhaust Gas Recirculation Valve Postion</td>
+                        <td>White/Black</td>
+                    </tr>
+
+                    <tr>
+                        <td>13</td>
+                        <td>ECT</td>
+                        <td>Engine Coolant Temperature</td>
+                        <td>Red/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>14</td>
+                        <td>PHO2S</td>
+                        <td>Primary Heated O2 Sensor Signal</td>
+                        <td>White</td>
+                    </tr>
+
+                    <tr>
+                        <td>15</td>
+                        <td>IAT</td>
+                        <td>Intake Air Temperature</td>
+                        <td>Red/Yellow</td>
+                    </tr>
+
+                    <tr>
+                        <td>16</td>
+                        <td>LAF IP-, VS-</td>
+                        <td>5 Wire O2(VX)</td>
+                        <td>Blue/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>17</td>
+                        <td>MAP</td>
+                        <td>Manifold Absolute Preassure</td>
+                        <td>White</td>
+                    </tr>
+
+                    <tr>
+                        <td>18</td>
+                        <td>SIL</td>
+                        <td>Upshift Light(CX,VX)</td>
+                        <td>Pink/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>19</td>
+                        <td>VCC1</td>
+                        <td>Sensor Volatge(MAP)</td>
+                        <td>Yellow/Green</td>
+                    </tr>
+
+                    <tr>
+                        <td>20</td>
+                        <td>VCC2</td>
+                        <td>Sensor Voltage(TPS)</td>
+                        <td>Yellow/White</td>
+                    </tr>
+
+                    <tr>
+                        <td>21</td>
+                        <td>SG1</td>
+                        <td>Sensor Ground</td>
+                        <td>Green/Blue</td>
+                    </tr>
+
+                    <tr>
+                        <td>22</td>
+                        <td>SG2</td>
+                        <td>Sensor Ground</td>
+                        <td>Green/White</td>
+                    </tr>
+                </table>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="CIVIC logo.png" alt="Civic Logo">
+        </div>
+
+        <div class="OFFSET">
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a >Contact</a>
+            <a >Feedback</a>
+            <a >Follow Us</a>
+        </div>
+    
+        <div class="footer-copy">
+        <p>Copyright &copy; 2026 EG CIVIC SPECIFICATIONS</p>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
